@@ -7,7 +7,7 @@ const config = {
 	env: [
 		"NODE_ENV=development",
 	],
-	code: 3487, // The code shown on Windows event logger
+	code: 3487, // The code shown on Windows event logger - not working perfectly
 };
 
 module.exports = config;

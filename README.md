@@ -18,3 +18,7 @@ The `winsvc` folder contains all the scripts needed for the app to run as Window
 | `npm run svc-uninstall` | Uninstalls the service |
 
 Check the service is running on Windows's `services.msc` and `eventvwr.msc`.
+
+## Service config
+
+Just change the values on `./winsvc/config.js` file as you wish.
