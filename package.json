@@ -1,0 +1,30 @@
+{
+  "name": "windows-service-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for creating a Node.js application that runs in background as a Windows Service. Version without TypeScript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svc-install": "node ./svc/install.js",
+    "svc-start": "node ./svc/install.js",
+    "svc-stop": "node ./svc/stop.js",
+    "svc-uninstall": "node ./svc/uninstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dami-i/node-windows-service-boilerplate-js.git"
+  },
+  "keywords": [],
+  "author": "Dami Izolan (https://github.com/dami-i)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dami-i/node-windows-service-boilerplate-js/issues"
+  },
+  "homepage": "https://github.com/dami-i/node-windows-service-boilerplate-js#readme",
+  "dependencies": {
+    "node-windows": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
+}
