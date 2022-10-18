@@ -1,14 +1,14 @@
 {
   "name": "windows-service-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A boilerplate for creating a Node.js application that runs in background as a Windows Service. Version without TypeScript.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "svc-install": "node ./svc/install.js",
-    "svc-start": "node ./svc/install.js",
-    "svc-stop": "node ./svc/stop.js",
-    "svc-uninstall": "node ./svc/uninstall.js"
+    "svc-install": "node ./winsvc/install.js",
+    "svc-start": "node ./winsvc/install.js",
+    "svc-stop": "node ./winsvc/stop.js",
+    "svc-uninstall": "node ./winsvc/uninstall.js"
   },
   "repository": {
     "type": "git",
